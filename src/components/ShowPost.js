@@ -1,4 +1,6 @@
 import React from 'react'
+import ReactDOM from 'react-dom'
+import { BrowserRouter, Route, Switch } from 'react-router-dom'
 
 const { id } = this.props.match.params
 const URL = `https://tiny-lasagna-server.herokuapp.com/collections/blogger/${id}`
